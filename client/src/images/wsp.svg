@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60.872" height="61.333" viewBox="0 0 60.872 61.333">
+  <defs>
+    <filter id="Trazado_7631" x="0" y="0.154" width="60.872" height="61.179" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.501" y1="1" x2="0.501" y2="0.002" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#20b038"/>
+      <stop offset="1" stop-color="#60d66a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.501" y1="1" x2="0.501" y2="0.002" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f9f9f9"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <filter id="Trazado_7633" x="0.031" y="0" width="60.835" height="61.027" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="BTN_WhatsApp" data-name="BTN WhatsApp" transform="translate(9 6)">
+    <g id="Grupo_5056" data-name="Grupo 5056" transform="translate(0 0.154)">
+      <path id="Trazado_7630" data-name="Trazado 7630" d="M574.179-965.085a21.4,21.4,0,0,0,2.849,10.7L574-943.3l11.316-2.975a21.287,21.287,0,0,0,10.2,2.6h.009a21.4,21.4,0,0,0,21.346-21.4,21.294,21.294,0,0,0-6.246-15.138,21.185,21.185,0,0,0-15.1-6.275A21.4,21.4,0,0,0,574.179-965.085Z" transform="translate(-574 986.48)" fill="none"/>
+      <g transform="matrix(1, 0, 0, 1, -9, -6.15)" filter="url(#Trazado_7631)">
+        <path id="Trazado_7631-2" data-name="Trazado 7631" d="M574.179-965.085a21.4,21.4,0,0,0,2.849,10.7L574-943.3l11.316-2.975a21.287,21.287,0,0,0,10.2,2.6h.009a21.4,21.4,0,0,0,21.346-21.4,21.294,21.294,0,0,0-6.246-15.138,21.185,21.185,0,0,0-15.1-6.275A21.4,21.4,0,0,0,574.179-965.085Z" transform="translate(-565 992.63)" fill="rgba(0,0,0,0.2)"/>
+      </g>
+    </g>
+    <path id="Trazado_7632" data-name="Trazado 7632" d="M.249-522.2A20.544,20.544,0,0,0,3-511.907L.077-501.241,10.992-504.1A20.582,20.582,0,0,0,20.83-501.6h.009A20.616,20.616,0,0,0,41.428-522.18,20.453,20.453,0,0,0,35.4-536.742a20.46,20.46,0,0,0-14.564-6.036A20.615,20.615,0,0,0,.249-522.2" transform="translate(0.696 543.523)" fill="url(#linear-gradient)"/>
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Trazado_7633)">
+      <path id="Trazado_7633-2" data-name="Trazado 7633" d="M.251-540.508A21.281,21.281,0,0,0,3.1-529.848L.072-518.8l11.306-2.965a21.312,21.312,0,0,0,10.192,2.6h.009A21.356,21.356,0,0,0,42.907-540.49a21.191,21.191,0,0,0-6.241-15.084,21.2,21.2,0,0,0-15.087-6.253A21.354,21.354,0,0,0,.251-540.508Zm6.733,10.1-.422-.67a17.673,17.673,0,0,1-2.71-9.431,17.749,17.749,0,0,1,17.734-17.72,17.612,17.612,0,0,1,12.533,5.2,17.612,17.612,0,0,1,5.187,12.537A17.75,17.75,0,0,1,21.579-522.77h-.007a17.706,17.706,0,0,1-9.022-2.471l-.648-.384-6.709,1.759Z" transform="translate(8.96 567.83)" fill="url(#linear-gradient-2)"/>
+    </g>
+    <path id="Trazado_7634" data-name="Trazado 7634" d="M176.336,175.545c-.4-.887-.819-.905-1.2-.921-.311-.013-.666-.012-1.021-.012a1.958,1.958,0,0,0-1.421.667,5.974,5.974,0,0,0-1.865,4.444c0,2.622,1.91,5.156,2.176,5.511s3.687,5.908,9.1,8.044c4.5,1.775,5.418,1.422,6.395,1.333s3.153-1.289,3.6-2.533a4.453,4.453,0,0,0,.311-2.534c-.133-.222-.489-.355-1.022-.622s-3.153-1.556-3.641-1.734-.844-.266-1.2.267-1.376,1.733-1.687,2.088-.622.4-1.155.134a14.578,14.578,0,0,1-4.285-2.645,16.058,16.058,0,0,1-2.965-3.69c-.311-.533-.033-.822.234-1.087.239-.239.533-.622.8-.933a3.654,3.654,0,0,0,.532-.889.981.981,0,0,0-.044-.934c-.133-.267-1.169-2.9-1.643-3.956" transform="translate(-160.128 -163.138)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>

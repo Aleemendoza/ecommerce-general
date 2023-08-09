@@ -9,19 +9,34 @@ import {
 
 const items = [
   {
-    src: 'https://www.cero26.com.ar/modules/ps_imageslider/images/c4f4cd4d4ad11225e8f4d9008298ed1b85d03da3_nike.png',
-    // altText: 'Slide 1',
-    // caption: 'Slide 1'
+    src: require('./imagesSlide/banner10Descuento.jpg'),
+    altText: 'Slide 1',
+    caption: 'Slide 1'
   },
   {
-    src: 'https://www.cero26.com.ar/modules/ps_imageslider/images/f9c200256803504842a773def7a6529d8a97b806_1920x500.jpg',
-    // altText: 'Slide 2',
-    // caption: 'Slide 2'
+    src: require('./imagesSlide/banner6sininteres.png'),
+    altText: 'Slide 2',
+    caption: 'Slide 2'
   },
   {
-    src: 'https://www.cero26.com.ar/modules/ps_imageslider/images/f544c924173b476b8ed217c925d0ab343b15d65d_SliderNew1920x500-01.jpg',
-    // altText: 'Slide 3',
-    // caption: 'Slide 3'
+    src: require('./imagesSlide/bannerAdidas.png'),  
+    altText: 'Slide 3',
+    caption: 'Slide 3'
+  },
+  {
+    src: require('./imagesSlide/bannerCasio.jpg'),  
+    altText: 'Slide 4',
+    caption: 'Slide 4'
+  },
+  {
+    src: require('./imagesSlide/bannerFila.jpg'),  
+    altText: 'Slide 5',
+    caption: 'Slide 5'
+  },
+  {
+    src: require('./imagesSlide/bannerAdidas.png'),  
+    altText: 'Slide 6',
+    caption: 'Slide 6'
   }
 ];
 
@@ -30,12 +45,14 @@ const Slide = (props) => {
   const [animating, setAnimating] = useState(false);
 
   const next = () => {
+    console.log('avanzo imagen')
     if (animating) return;
     const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
     setActiveIndex(nextIndex);
   }
 
   const previous = () => {
+      console.log('retrocedo imagen')
     if (animating) return;
     const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
     setActiveIndex(nextIndex);
@@ -54,7 +71,7 @@ const Slide = (props) => {
         key={item.src}
       >
         <div>
-          <img height='360' src={item.src} alt={item.altText} />
+          <img height='360' width={100} src={item.src.default} alt={item.altText} /> {/* Uso de item.src.default */}
         </div>
         <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
       </CarouselItem>

@@ -19,7 +19,7 @@ import "./App.css";
 import OrdenIndividual from "./components/admin/OrdenIndividual";
 import Envio from "./components/details/Envio";
 import Gracias from "./components/details/Gracias";
-import Slide from "./components/product/Slide";
+import Slide from "./components/slide/Slide";
 
 function App() {
   return (
