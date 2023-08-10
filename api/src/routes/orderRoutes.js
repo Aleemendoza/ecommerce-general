@@ -7,10 +7,6 @@ const {eliminarObjetosDuplicados} = require( '../funciones')
 const {sumarPreciosPorId} = require( '../funciones')
 const {contarProductosEnCarritoDeId} = require( '../funciones')
 
-
-
-
-
 router.post('/:id/order', async (req, res) => {
   const order = await Order.create(
     {

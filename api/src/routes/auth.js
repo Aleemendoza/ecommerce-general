@@ -12,6 +12,7 @@ isAuthenticated = (req, res, next) => {
       message: 'User not authenticated',
     });
 };
+
 isAdmin = (req, res, next) => {
   console.log(req.isAuthenticated());
   if (req.user.rol === 'admin') return next();

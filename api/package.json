@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "v12.22.1"
+  },
   "scripts": {
     "start": "NODE_PATH=./src nodemon -L",
     "forever": "NODE_PATH=./src forever index.js",
