@@ -18,9 +18,7 @@ export const DELETE_USER = 'DELETE_USER'
 export const ENVIAR_COMPRA = 'ENVIAR_COMPRA'
 export const GET_ALL_ORDENES = 'GET_ALL_ORDENES'
 export const GET_ORDER_DETAILS = 'GET_ORDER_DETAILS'
-export const LOGIN_USUARIO = 'LOGIN_USUARIO'
 export const SEND_REVIEWS = 'SEND_REVIEWS'
-export const LOG_OUT = 'LOG_OUT'
 export const GET_ALL_REVIEWS = 'GET_ALL_REVIEWS'
 export const UPDATE_USER = 'UPDATE_USER'
 export const UPDATE_ORDER = 'UPDATE_ORDER'
@@ -393,50 +391,7 @@ export function addUser (user) {
           };
         }
 
-      
-
-     
-
-
-
-     export function loginUsuario (usuario) {
-
-       return function(dispatch) {
-         return   fetch('http://localhost:3001/auth/login/', {
-           method: 'post',
-           //credentials: 'include',
-           headers: {
-         'Content-Type': 'application/json'
-          },
-          body: JSON.stringify(usuario)
-        })
-        .then(response => response.json())
-        .then(user => {
-           dispatch({
-             type: LOGIN_USUARIO,
-             payload: user
-           });
-             return user;
-           });
-
-         };
-       }
-
-       export function logOut () {
-        return function(dispatch) {
-          return   fetch('http://localhost:3001/auth/logout')
-         .then(userNull => {
-            dispatch({
-              type: LOG_OUT,
-              payload: userNull
-            });
-            });
- 
-          };
-        }
- 
-
-
+//Funcion que hace el Logueo
        // REVIEWS
 
        export function sendReviews (value) {

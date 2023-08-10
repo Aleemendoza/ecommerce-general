@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 import { connect } from 'react-redux'
-import { logOut } from '../../actions/actionProduct'
+import { logOut } from '../../actions/actionLogin'
 import SearchBar from '../searchBar/SearchBar'
 
 function NavBar(props) {

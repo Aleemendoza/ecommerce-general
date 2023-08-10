@@ -6,9 +6,6 @@ import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 // import {useEffect} from 'react'
 
-
-
-
 function SimpleRating(props) {
 
   const [value, setValue] = React.useState({
@@ -36,44 +33,45 @@ function SimpleRating(props) {
   }
 
 
-  return (<div class="container">
-    <form onSubmit={handleSubmit}>
-    <div>
-      <Box component="fieldset" mb={3} borderColor="transparent">
-        <Typography component="legend">Reviews</Typography>
-        <Rating
-          name="rate"
-          // value={value.rate}
-          onChange={handleChange}
-        />
-      </Box>
+  return (
+    <div class="container">
+      <form onSubmit={handleSubmit}>
       <div>
-        <label>Comentario <br></br> </label>
+        <Box component="fieldset" mb={3} borderColor="transparent">
+          <Typography component="legend">Reviews</Typography>
+          <Rating
+            name="rate"
+            // value={value.rate}
+            onChange={handleChange}
+          />
+        </Box>
+        <div>
+          <label>Comentario <br></br> </label>
+        </div>
+        {/* <p>Usuario: {props.usuarioLogueado}</p> */}
+        <textarea
+            name='description'
+            // value={value.description}
+            onChange={handleChange}
+        ></textarea> <br></br>
+        <button class="btn btn-warning btn-sm" type="submit"> Enviar comentario</button>
+
+        {/* <Box component="fieldset" mb={3} borderColor="transparent">
+          <Typography component="legend">Read only</Typography>
+          <Rating name="read-only" value={value} readOnly />
+        </Box>
+        <Box component="fieldset" mb={3} borderColor="transparent">
+          <Typography component="legend">Disabled</Typography>
+          <Rating name="disabled" value={value} disabled />
+        </Box>
+        <Box component="fieldset" mb={3} borderColor="transparent">
+          <Typography component="legend">Pristine</Typography>
+          <Rating name="pristine" value={null} />
+        </Box> */}
       </div>
-      {/* <p>Usuario: {props.usuarioLogueado}</p> */}
-      <textarea
-          name='description'
-          // value={value.description}
-          onChange={handleChange}
-      ></textarea> <br></br>
-       <button class="btn btn-warning btn-sm" type="submit"> Enviar comentario</button>
+      </form>
 
-      {/* <Box component="fieldset" mb={3} borderColor="transparent">
-        <Typography component="legend">Read only</Typography>
-        <Rating name="read-only" value={value} readOnly />
-      </Box>
-      <Box component="fieldset" mb={3} borderColor="transparent">
-        <Typography component="legend">Disabled</Typography>
-        <Rating name="disabled" value={value} disabled />
-      </Box>
-      <Box component="fieldset" mb={3} borderColor="transparent">
-        <Typography component="legend">Pristine</Typography>
-        <Rating name="pristine" value={null} />
-      </Box> */}
-    </div>
-    </form>
-
-    </div>
+      </div>
   );
 }
 

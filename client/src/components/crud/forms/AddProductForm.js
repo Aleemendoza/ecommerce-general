@@ -53,7 +53,7 @@ class AddProductForm extends Component {
               <input type="text" name="stock" placeholder="Stock" onChange={(e) => this.handleChange(e)}/>
             </div>
             <div>
-              <input type="text" name="image" placeholder="Imagen" onChange={(e) => this.handleChange(e)}/>
+              <input type="file" name="image" placeholder="Imagen" onChange={(e) => this.handleChange(e)}/>
             </div>
             <div>
               <label>Categorias </label>

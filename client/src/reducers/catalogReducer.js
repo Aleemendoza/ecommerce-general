@@ -19,9 +19,9 @@ import {
   ENVIAR_COMPRA,
   GET_ALL_ORDENES,
   GET_ORDER_DETAILS,
-  LOGIN_USUARIO,
   SEND_REVIEWS,
-  LOG_OUT,
+  
+  
   GET_ALL_REVIEWS,
   UPDATE_USER,
   UPDATE_ORDER,
@@ -172,18 +172,6 @@ const initialState = {
               ordenes: action.payload
             }       
 
-          
-       
-    case LOGIN_USUARIO:
-      return {
-        ...state,
-        usuarioLogueado: action.payload
-      }
-      case LOG_OUT:
-      return {
-        ...state,
-        usuarioLogueado: action.payload
-      }
       case SEND_REVIEWS:
         return {
           ...state,
